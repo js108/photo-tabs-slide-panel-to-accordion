@@ -1,0 +1,54 @@
+body {
+	max-width: 668px;
+    margin: 0 auto;
+}
+
+#wrapper {
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.panel, .panel-container .square {
+    display: none;
+}
+
+.panel {
+    background-color: #E8E8E8;
+    text-align: left;
+    height: 200px;
+    margin: 30px 0;
+}
+
+.panel.active {
+    display: block;
+}
+
+.square-container {
+    margin: 30px 0 0 0;
+}
+
+a.square {
+	margin: 30px 30px 0 0;
+}
+
+a.square:last-child {
+    margin-right: 0;
+}
+
+a.square img:hover, a.square.active {
+    opacity: .35;
+}
+
+@media only screen 
+and (max-width : 700px) {
+.panel-container .square {
+    display: block;
+}
+.square-container {
+    display: none;
+}
+
+.panel {
+    padding: 0 15px;
+}
+}
