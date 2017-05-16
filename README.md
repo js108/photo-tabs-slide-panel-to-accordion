@@ -1,6 +1,6 @@
 # Photo Grid / Tabs with Slide Panel Responsive to Accordion
 
-This is a photo grid (or a series of tabs depending on how you look at it) with slide panels that shift responsively to a single column layout. It's a little trickier than it seems because in the grid layout you want the slide panel to be below a row, where in the single column layout you want it to be below each photo/tab. So you have to move the slide panels around. This was accomplished with jquery.
+This is a photo grid (or a series of tabs depending on how you look at it), with slide panels, that shifts responsively to a single column layout. It's a little trickier than it seems because in the grid layout you want the slide panel to be below a row, where in the single column layout you want it to be below each photo/tab. So you have to move the panels around. This was accomplished with jquery.
 
 ## Demo
 
