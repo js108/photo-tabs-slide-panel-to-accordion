@@ -1,14 +1,12 @@
-#Photo Grid w/Slide Panels Responsive to Accordion
+# Photo Grid / Tabs with Slide Panel Responsive to Accordion
 
-There are only two hard things in Computer Science: cache invalidation and naming things.
+This is a photo grid (or a series of tabs depending on how you look at it) with slide panels that shifts responsively to a single column layout. It's a little trickier than it seems because in the grid layout you want the slide panel to be below a row, where in the single column layout you want it to be below each photo/tab. So you have to move the slide panels around. This was accomplished with jquery.
 
--- Phil Karlton
-
-##Demo
+## Demo
 
 http://joeschoech.com/image-grid
 
-##How To
+## How To
 
 Put your images where it says *images/x.gif*. Put whatever you want to put in the panels where it says *PANEL X: Ipsum*.
 
@@ -24,6 +22,6 @@ Put your images where it says *images/x.gif*. Put whatever you want to put in th
         <div id="square3" class="panel">PANEL 3: Ipsum</div>
     </div>
 
-##Notes
+## Notes
 
-Obviously this is a whole little website which makes it a harder to work with in some ways than say a jquery plugin. But if it's what you're looking for you're prob psyched right now reguardless. I sure would've been. And in some ways its better like if you want to extend it without wading through someones endless javascript. Though if you are specifically looking for a plugin could try [this one](https://github.com/samsono/Easy-Responsive-Tabs-to-Accordion) which is what I originally did. But then I decided to write my own for really no good reason. [This tutorial](http://inspirationalpixels.com/tutorials/creating-tabs-with-html-css-and-jquery) was helpful in understanding how to do it. It's true I called it a photo grid but it's basically tabs. What is a tab really tho~ makes u think.
+Obviously this is a whole little website which makes it a harder to work with in some ways than say a jquery plugin. But if it's what you're looking for you're prob psyched right now regardless. I sure would've been. And in some ways its better, like if you want to extend it without wading through someones endless javascript. Though if you are specifically looking for a plugin could try [this one](https://github.com/samsono/Easy-Responsive-Tabs-to-Accordion) which is what I originally did. But then I decided to write my own for really no good reason. [This tutorial](http://inspirationalpixels.com/tutorials/creating-tabs-with-html-css-and-jquery) was helpful in understanding how to do it.
