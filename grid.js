@@ -1,6 +1,6 @@
 $(function() {
     
-    //Copies images to the approreate place to be displayed in accordian mode
+    //Copies images to the approreate place to be displayed in accordion mode
     $('a.square').each(function(){
         var squareValue = $(this).attr('href');
         $(this).clone().insertBefore('.panel' + squareValue);
